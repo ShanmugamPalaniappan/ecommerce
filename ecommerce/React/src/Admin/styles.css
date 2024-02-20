@@ -1,0 +1,25 @@
+.background{
+    background: linear-gradient(to bottom left, #cc66ff 10%, #99ffcc 100%);
+    height: 100vh;
+    overflow: auto;
+}
+
+.fixed-top{
+    background: linear-gradient(to  left, #cc66ff 10%, #d2b2ff 100%);
+}
+.button {
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  box-shadow: 0 5px #999;
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
